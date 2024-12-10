@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restoran</title>
+  <link rel="stylesheet" href="./assets/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/main.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <!-- Navigation bar -->
+    <nav class=" fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+
+        <!-- Logo -->
+        <a class="navbar-brand text-warning ps-3" href="#">
+          <img src="./assets/icon/spoon_icon.png" alt="ROSTORAN" />ROSTORAN</a>
+
+        <!-- Menu -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SERVICE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MENU</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                PAGE
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">OUR SERVICE</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">OUR TEAM</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="booking.html">BOOKING</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-warning text-white btni-link" href="booking.html">BOOK A TABLE</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Booking banner -->
+  <section>
+    <div class="" style="
+  background-image: url(./assets/img/home_foods/Untitled\ Project.jpg);
+  background-size: cover;
+  min-height: 50vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  object-fit: contain;
+">
+      <div class="container text-white d-flex flex-column align-items-center justify-content-center"
+        style="height: 50vh">
+        <h1 class="h1">Booking</h1>
+        <p class="link">
+          <span><a href="index.html">HOME</a> / <a href="#">PAGES </a>/ </span><a href="about.html">ABOUT</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form section -->
+  <section>
+    <div class="row_booking">
+      <div class="row row_booking flex-column flex-sm-row mt-5 bg-primary mx-auto" style="background-size: cover">
+
+        <!-- video input -->
+        <div class="col pt-2">
+          <iframe src="https://www.youtube.com/embed/sIWm5Fi8Z7Q?si=RbkLhkcREl1_M3t8" frameborder="0"
+            style="width: 100%; height: 425px"></iframe>
+        </div>
+
+        <!-- Form -->
+        <form class="col p-2">
+          <div class="fs-3 d-flex">
+            <span class="text-warning fs-3">Reservation</span>
+            <hr class="bg-warning ms-1" style="width: 25px; border: none; opacity: 0.8" />
+          </div>
+          <p class="fs-3 text-white">Book a Table Online</p>
+
+          <div class="mb-3 row gx-0 gap-3">
+            <div class="col">
+              <input type="text" class="form-control" id="exampleInputName1" placeholder="Your Name"
+                style="height: 57px" />
+            </div>
+            <div class="col">
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your Email"
+                style="height: 57px" />
+            </div>
+          </div>
+          <div class="mb-3 row gx-0 gap-3">
+            <div class="col">
+              <input type="datetime" class="form-control" id="exampleInputPassword1" placeholder="Date & Time"
+                style="height: 57px" />
+            </div>
+            <div class="col">
+              <input type="number" class="form-control" id="exampleInputPassword1" placeholder="No of People"
+                style="height: 57px" />
+            </div>
+          </div>
+          <div class="form-floating mb-3">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+              style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Comments</label>
+          </div>
+          <button type="submit" class="btn btn-warning text-white w-100" style="height: 57px">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="mt-5 px-5 bg-primary" style=" background-size: cover">
+
+      <!-- Grid -->
+      <div class="row">
+        <div class="col my-3">
+          <h1 class="text-warning d-flex">Comapany
+            <hr class="bg-warning ms-1" style="width: 25px; border: none; opacity: 0.8" />
+          </h1>
+          <ul class="list-unstyled text-white">
+            <li>> ABOUT Us</li>
+            <li>> Contact Us</li>
+            <li>> Reservation</li>
+            <li>> Privacy Policy</li>
+            <li>> Terms & Condition</li>
+          </ul>
+        </div>
+        <div class="col my-3">
+          <h1 class="text-warning d-flex">Contact
+            <hr class="bg-warning ms-1" style="width: 25px; border: none; opacity: 0.8" />
+          </h1>
+          <ul class="list-unstyled text-white d-flex flex-column gap-2">
+            <li>
+              <img src="./assets/icon/image (1).png" class="me-2" alt="location" />Akaki
+              Kality, Addis Ababa, Ethiopia
+            </li>
+            <li>
+              <img src="./assets/icon/image (2).png" class="me-2" alt="telephone" />+2519-70-34-4833
+            </li>
+            <li>
+              <img src="./assets/icon/image (3).png" class="me-2" alt="mail" />bereketdesalegn@gmail.com
+            </li>
+            <li class="d-flex gap-4 mt-3 social_media">
+              <img src="./assets/icon/image (4).png" alt="twitter" />
+              <img src="./assets/icon/image (5).png" alt="facebook" />
+              <img src="./assets/icon/image (6).png" alt="youtube" />
+              <img src="./assets/icon/image (7).png" alt="linkedIn" />
+            </li>
+          </ul>
+        </div>
+        <div class="col my-3">
+          <h1 class="text-warning d-flex">Opening
+            <hr class="bg-warning ms-1" style="width: 25px; border: none; opacity: 0.8" />
+          </h1>
+          <ul class="list-unstyled text-white">
+            <li class="h5">Monday - Saturday</li>
+            <li class="mb-3">9AM - 9PM</li>
+            <li class="h5">Sunday</li>
+            <li>10AM - 8PM</li>
+          </ul>
+        </div>
+        <div class="col my-3">
+          <h1 class="text-warning d-flex">Newsletter
+            <hr class="bg-warning ms-1" style="width: 25px; border: none; opacity: 0.8" />
+          </h1>
+          <ul class="list-unstyled">
+            <li class="text-white mb-4">
+              It is recent and update news about<br />
+              our services, so let subscribe it.
+            </li>
+            <li class="signUp">
+              <input type="email" placeholder="Your Email" class=" position-absolute"
+                style="height: 50px; width: 200px;">
+              <button class="btn btn-warning text-white fs-5 fw-bolder p-1 position-relative"
+                style="top: 5px; left: 110px;">
+                SIGN UP
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

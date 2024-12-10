@@ -1,0 +1,82 @@
+/*import font*/
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Itim&family=Playwrite+HR+Lijeva:wght@100..400&display=swap");
+
+/* ||General styles */
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.link a {
+  text-decoration: none;
+  color: white;
+}
+
+.link span a {
+  color: #ffc107;
+}
+
+.social_media img:hover {
+  opacity: 0.6;
+}
+
+.signUp input[type="email"]:focus {
+  border: 1px solid #ffc107;
+  outline: 0 none;
+}
+
+/* ||Home Page */
+.animate_spin {
+  animation: spin 20s infinite forwards normal;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ||Fot Small Devices landscape screen */
+@media screen and (max-height: 576px) and (orientation: landscape) {
+  .home_grid {
+    display: flex !important;
+  }
+
+  .home_grid .describe {
+    text-align: start !important;
+  }
+
+  .describe h1 {
+    font-size: 2.5rem !important;
+  }
+
+  .describe p {
+    font-size: 1rem !important;
+  }
+
+  .d-lg-block {
+    display: block !important;
+  }
+}
+
+/* ||For Medium Devices portrait screen */
+@media screen and (min-width: 876px) and (orientation: portrait),
+(min-height: 576px) and (orientation: landscape) {
+  .describe h1 {
+    font-size: 3.5rem !important;
+  }
+
+  .describe p {
+    font-size: 1.6rem !important;
+  }
+}
+
+
+/* ||Booking pages */
+.row_booking .row {
+  margin-right: auto !important;
+}
